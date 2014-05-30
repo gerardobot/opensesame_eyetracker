@@ -895,7 +895,6 @@ class libeyelink:
 					send_backdrop = el.bitmap2DBackdrop
 				else:
 					send_backdrop = el.bitmapBackdrop
-				send_backdrop = el.bitmap2DBackdrop
 				img = backdrop[0]
 				width = backdrop[1]
 				height = backdrop[2]
